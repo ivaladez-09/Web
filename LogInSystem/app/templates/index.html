@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if title %}
+    <title>{{ title }} System</title>
+    {% else %}
+    <title>LogIn System!!</title>
+    {% endif %}
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="content">
+            <h1 class="login-title">
+                LogIn System
+            </h1>
+            <form action="submit" method="GET" class="form-login">
+                <div class="form-parameter">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" class="form-field">
+                </div>
+                <div class="form-parameter">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-field">
+                </div>
+                <div class="form-submit">
+                    <button type="submit" class="form-submit-btn">LogIn</button>
+                </div>
+            </form>
+            <a href="register" class="link-register">Register</a>
+        </div>
+    </section>
+</body>
+
+</html>

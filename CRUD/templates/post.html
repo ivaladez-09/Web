@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>POST method</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">HTTP - {{ method }} method</h1>
+        <p class="description">Experiment with the {{ method }} method.</p>
+        <form action="http://127.0.0.1:5000/post.html/submit" method="POST" class="my-form">
+            <div class="form-field">
+                <label for="username">Username</label>
+                <input name="username" id="username" class="writable-field">
+            </div>
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input name="password" id="password" class="writable-field">
+            </div>
+            <div class="form-field">
+                <label for="age">Age</label>
+                <input name="age" id="age" class="writable-field">
+            </div>
+            <div class="form-submit">
+                <button class="form-subtmit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <h1></h1>
+    <p></p>
+
+
+</body>
+
+</html>

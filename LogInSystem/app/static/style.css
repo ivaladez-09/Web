@@ -1,0 +1,93 @@
+
+:root {
+    --base-color: rgba(240, 240, 240, .5);
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 50, 50)
+}
+
+.container {
+    width: 30%;
+    height: 50vh;
+    border: solid 2px black;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.content {
+    width: 80%;
+    margin: 10% auto;
+    height: 85%;
+}
+
+.login-title {
+    width: 100%;
+    margin: 10% auto;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form-login {
+    width: 100%;
+    margin: 20% auto 2%;
+}
+
+.form-parameter {
+    margin: 5% auto;
+    width: 100%;
+}
+
+.form-parameter:hover {
+    background-color: rgb(216, 233, 212);
+}
+
+.form-field {
+    border: solid 1px black;
+}
+
+.form-submit {
+    width: 100%;
+}
+
+.form-submit-btn {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(94, 224, 18);
+    padding: 2% 10%;
+    border-radius: 10%;
+    font-size: 1.2rem;
+}
+
+.form-submit-btn:hover {
+    background-color: rgb(92, 163, 51);
+    font-size: 1.3rem;
+}
+
+
+.link-register {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(31, 186, 233);
+    padding: 2% 10%;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: .8rem;
+    color: black;
+    display: block;
+}
+
+.link-register:hover {
+    background-color: rgb(59, 135, 158);
+    font-size: .9rem;
+}

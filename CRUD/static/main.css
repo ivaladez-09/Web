@@ -1,0 +1,76 @@
+:root {
+  --base-color: rgba(230, 230, 230, .5);
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(220, 220, 220);
+}
+
+.container {
+  margin: auto;
+  width: 30%;
+  height: 50vh;
+  border: solid 2px black;
+  background-color: rgb(240, 240, 240);
+}
+
+.container .header {
+  text-align: center;
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.container .description {
+  text-align: center;
+  margin: 2rem auto;
+  width: 80%;
+  height: 20%;
+}
+
+.method-link{
+  text-decoration: none;
+  padding: .5em 1em;
+  text-align: center;
+}
+
+.links {
+  width: 80%;
+  top: 5rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.my-form {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.form-field {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.writable-field{
+  border: solid 1px black;
+}
+
+.form-subtmit-button {
+  background-color: rgb(220, 220, 220);
+  font-size: 1rem;
+  padding: .2rem .5rem;
+  border: solid 1px black;
+}
+
